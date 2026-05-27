@@ -1,0 +1,111 @@
+/* Success Page Container */
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #f9fdf9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Success Message */
+.success-message {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+.success-reference{
+    font-size: 1rem;
+    color:#333;
+    background-color:#f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.success-card{
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+}
+.success-title{
+     font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+paymentsuccess.css
+/* Product Container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+/* Product Card */
+.product-card {
+    background: #dbe9ee;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Product Title */
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Product Price */
+.product-price {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Pay Button */
+.pay-button {
+    background-color: #f0a1f3;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+    background-color: #287aa6;
+}
