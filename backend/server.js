@@ -9,6 +9,9 @@ export const  instance = new Razorpay({
   key_secret:process.env.RAZORPAY_KEY_SECRET ,
  
   });
+  import { connectDB } from "./config/db.js";
+connectDB();
+
 
 app.listen(process.env.PORT, ()=>{
     console.log(`server started at PORT ${process.env.PORT}`);
